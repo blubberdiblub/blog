@@ -1,0 +1,19 @@
+
+# hidden files and directories except certain git files
+.*
+!.gitattributes
+!.gitignore
+
+# Python cache directories
+__pycache__/
+
+# Databases
+*.db
+
+# Google site verification file
+google*.html
+
+# explicit paths to ignore
+/cache
+/output
+
