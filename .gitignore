@@ -13,6 +13,13 @@ __pycache__/
 # Google site verification file
 google*.html
 
+# virtualenv components
+/bin/
+/include/
+/lib/
+/pip-selfcheck.json
+/share/
+
 # explicit paths to ignore
 /cache
 /output
