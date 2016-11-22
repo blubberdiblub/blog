@@ -642,6 +642,7 @@ from nikola import filters
 FILTERS = {
     ".css": [filters.yui_compressor],
     ".js": [filters.yui_compressor],
+    ".png": [filters.optipng],
 }
 
 # Expert setting! Create a gzipped copy of each generated file. Cheap server-
