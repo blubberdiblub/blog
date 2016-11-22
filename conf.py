@@ -22,8 +22,8 @@ BLOG_AUTHOR = {
     "de": "Niels Böhm",
 }  # (translatable)
 BLOG_TITLE = {
-    "en": "Niels Boehm's Blog",
-    "de": "Niels Böhms Blog",
+    "en": "Niels's Blog",
+    "de": "Niels' Blog",
 }  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
@@ -33,7 +33,7 @@ SITE_URL = "https://blog.blubberdiblub.org/"
 # BASE_URL = "https://blog.blubberdiblub.org/"
 BLOG_EMAIL = "blubberdiblub@gmail.com"
 BLOG_DESCRIPTION = {
-    "en": "Technical topics and other random things.",
+    "en": "Technical topics and random things.",
     "de": "Technische Themen und andere Dinge.",
 }  # (translatable)
 
@@ -149,7 +149,7 @@ NAVIGATION_LINKS = {
     ),
 
     "de": (
-        ("/de/", "Neuigkeiten"),
+        ("/de/", "News"),
         ("/de/archive.html", "Archiv"),
         ("/de/categories/", "Tags"),
         ("/de/rss.xml", "RSS-Feed"),
