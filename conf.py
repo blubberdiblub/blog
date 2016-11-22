@@ -638,6 +638,11 @@ GITHUB_COMMIT_SOURCE = True
 #    ".js": [filters.closure_compiler],
 #    ".jpg": ["jpegoptim --strip-all -m75 -v %s"],
 # }
+from nikola import filters
+FILTERS = {
+    ".css": [filters.yui_compressor],
+    ".js": [filters.yui_compressor],
+}
 
 # Expert setting! Create a gzipped copy of each generated file. Cheap server-
 # side optimization for very high traffic sites or low memory servers.
