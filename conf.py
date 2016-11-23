@@ -761,7 +761,8 @@ GZIP_EXTENSIONS = (
 # (the thumbnail has ``.thumbnail`` added before the file extension).
 
 IMAGE_FOLDERS = {'images': 'images'}
-# IMAGE_THUMBNAIL_SIZE = 400
+IMAGE_THUMBNAIL_SIZE = 640
+MAX_IMAGE_SIZE = 1920
 
 # #############################################################################
 # HTML fragments and diverse things that are used by the templates
