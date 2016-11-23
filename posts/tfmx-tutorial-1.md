@@ -9,6 +9,10 @@
 .. type: text
 -->
 
+[TOC]
+
+## Introduction
+
 If we want to compose music like Chris Huelsbeck did back in his Amiga days,
 we need to familiarize ourselves with his TFMX Sound System.
 
@@ -20,6 +24,8 @@ will see how to set it up in the latter one as this is the emulator I'm using
 most often and is one that presents a more friendly configuration interface,
 however, if you feel comfortable with WinUAE, you should have no problems
 adapting the instructions for the former.
+
+## Emulator Settings
 
 We may want to adjust some FS-UAE settings, such as disabling the floppy drive
 clicking emulation when there is no disk in the drive, as this might disturb
@@ -37,6 +43,8 @@ If we don't have it already, we will need to obtain and install FS-UAE. We can
 get it from [the official FS-UAE website](https://fs-uae.net/download). For
 this tutorial we will assume we have it already set up.
 
+## Preparing Kickstart ROM's
+
 The static part of the Amiga's operating system - called Kickstart - resides on
 a ROM chip on the real hardware, which means we will have to provide a
 Kickstart image file to the emulator. Unfortunately, the emulator's built-in
@@ -52,6 +60,8 @@ emulating an *Amiga 500 +*. We should place them into the Kickstarts folder
 that FS-UAE created for us:
 
 [![FS-UAE Kickstarts Folder][kickstarts-folder-inline]][kickstarts-folder-full]
+
+## Preparing Floppy Image
 
 Of course we will also need to obtain an Amiga disk file (__ADF__ for short)
 containing TFMX, which I cannot offer for download here for obvious reasons.
@@ -69,6 +79,8 @@ The _Scan_ button updates FS-UAE's database and depending on which Kickstarts
 we dropped into the folder, it shows us which Amiga systems it will emulate:
 
 [![FS-UAE Update File Database Dialog][file-database-dialog-inline]][file-database-dialog-full]
+
+## Creating a Configuration
 
 Now we are ready to create a configuration for TFMX. We will start at the home
 tab, which is the most important one. There are several items here we need to
@@ -125,6 +137,8 @@ list. After that we're ready to _start_ our virtual Amiga:
 
 [![FS-UAE Save Configuration][save-config-inline]][save-config-full]
 
+## Starting TFMX
+
 After some potential intro, we're presented with a menu of choices. As we
 should have configured a lot of RAM, we are free to start the generous 16 color
 version of the editor with *F3*:
@@ -145,6 +159,8 @@ Let's try loading up a song. We switch to the _load song_ screen and double
 click one of the example songs on the disk:
 
 [![TFMX Load Song][tfmx-load-song-inline]][tfmx-load-song-full]
+
+## Getting out of AmigaOS Requester Hell
 
 As this is the first time when we might accidentally make a mistake that could
 get us stuck or at least confused if we're not accustomed to AmigaOS, we will
@@ -181,6 +197,8 @@ the combination should be *Windows* + *M* or *Super* + *M*, respectively.
 
 [![AmigaOS Shuffle Screens][shuffle-screens-inline]][shuffle-screens-full]
 
+## Fooling Around
+
 After this little detour, we can enjoy the song by pressing the _Play_ button:
 
 [![TFMX Play Song][tfmx-play-song-inline]][tfmx-play-song-full]
@@ -197,7 +215,11 @@ by pressing the _Enter_ key (after changing the name, if desired):
 We can leave TFMX by clicking the _ESC_ button and then confirming the request
 at the top with the right mouse button:
 
+## Quitting TFMX
+
 [![TFMX Exit][tfmx-exit-inline]][tfmx-exit-full]
+
+## Conclusion and Upcoming
 
 Today we practised setting up our emulator to run the TFMX Sound System and
 made our first steps to familiarize ourselves with the environment.
